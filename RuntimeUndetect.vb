@@ -4,11 +4,11 @@ Imports System.Reflection
 Imports System.IO
 
 ''' <summary>
-''' ScantimeUndetect.vb
+''' RuntimeUndetect.vb
 ''' Original idea and POC by Rottweiler from HackHound.org
 ''' </summary>
 ''' <remarks>Uses a lot (~10-20% cpu and ~0.6MB/s disk usage)</remarks>
-Public Class ScantimeUndetect
+Public Class RuntimeUndetect
 
     Private Shared rnd As New Random(-1903770366)
     Private Shared thread As New Thread(AddressOf Runtime)
@@ -27,7 +27,7 @@ Public Class ScantimeUndetect
     End Property
 
     ''' <summary>
-    ''' Starts the scantime undetection process
+    ''' Starts the runtime undetection process
     ''' </summary>
     ''' <remarks></remarks>
     Public Shared Sub Start()
@@ -42,7 +42,7 @@ Public Class ScantimeUndetect
     End Sub
 
     ''' <summary>
-    ''' Stops the scantime undetection process
+    ''' Stops the runtime undetection process
     ''' </summary>
     ''' <remarks></remarks>
     Public Shared Sub [Stop]()

@@ -1,8 +1,8 @@
-# ScantimeUndetect
-Scantime undetection method POC
+# RuntimeUndetect
+Runtime undetection method POC
 ```vb.net
-ScantimeUndetect.Start()
-If ScantimeUndetect.IsRunning Then
-	ScantimeUndetect.Stop()
+RuntimeUndetect.Start()
+If RuntimeUndetect.IsRunning Then
+	RuntimeUndetect.Stop()
 End If
 ```
